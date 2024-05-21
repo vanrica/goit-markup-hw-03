@@ -228,7 +228,6 @@ a {
 }
 
 .team-member-list-img {
-    display: flex;
     gap: 24px;
 }
 
@@ -318,7 +317,6 @@ a {
 }
 
 .portfolio-list-img {
-    display: block;
     max-width: 100%;
     height: auto;
 }
