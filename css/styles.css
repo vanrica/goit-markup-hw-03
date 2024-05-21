@@ -11,6 +11,10 @@ p {
     margin-bottom: 0;
 }
 
+img {
+    display: block;
+}
+
 *,
 *:before,
 *:after {
@@ -40,10 +44,6 @@ a {
     color:inherit;
 }
 
-img {
-    display: block;
-}
-
 .container {
     width: 1158px;
     padding: 0 15px;
@@ -59,6 +59,10 @@ img {
 .page-nav {
     display: flex;
     align-items: center;
+}
+
+.header-container {
+    display: flex;
 }
 
 .page-logo {
@@ -106,6 +110,7 @@ img {
 .company-adress {
     display: flex;
     gap: 40px;
+
 }
 
 .company-address-link {
@@ -168,8 +173,13 @@ img {
 
 /* VALUES */
 
-.valuer-section {
+.values-section {
     padding: 120px 0;
+}
+
+.values-list {
+    display: flex;
+    gap: 24px;
 }
 
 .values-list-item {
@@ -218,6 +228,11 @@ img {
 }
 
 .team-member-list-img {
+    display: flex;
+    gap: 24px;
+}
+
+.team-member-list {
     display: flex;
     gap: 24px;
 }
